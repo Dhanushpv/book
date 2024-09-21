@@ -1,0 +1,84 @@
+    <!-- <div class="">
+        <div class="position-absolute top-50 start-50 translate-middle text-center sub_container">
+            <div class="d-flex spacing">
+                <div class="svg-wrapper ">
+                    <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="shape" height="60" width="320" />
+                    </svg>
+                        <div  class=""><a href="./add_book.html" class="text  text-decoration-none link-dark  fw-bold">Add Books</a></div>
+                </div>
+
+                <div class="svg-wrapper">
+                    <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="shape" height="60" width="320" />
+                    </svg>
+                    <div><a href="./book_list.html" class="text text-decoration-none link-dark fw-bold">List of Books</a></div>
+                </div>
+            </div>
+
+
+            <div class="d-flex pt-5">
+                <div class="svg-wrapper">
+                    <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="shape" height="60" width="320" />
+                    </svg>
+                    <div ><a href="./updatesingle.html" class="text text-decoration-none link-dark fw-bold">Update</a></div>
+                </div>
+
+                <div class="svg-wrapper">
+                    <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="shape" height="60" width="320" />
+                    </svg>
+                    <div ><a href="./delete_single.html" class="text text-decoration-none link-dark fw-bold">Delete</a></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- css -->
+
+<!--   
+.svg-wrapper {
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .shape {
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    stroke: #000000;
+  }
+  
+  .text {
+    color: #000000;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    letter-spacing: 8px;
+    line-height: 32px;
+    position: relative;
+    
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+    }
+    100% {
+      stroke-dasharray: 760;
+      stroke-dashoffset: 0;
+      stroke-width: 2px;
+    }
+  }
+  
+  .svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  } -->

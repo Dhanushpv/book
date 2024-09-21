@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./login.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>BOOK STALL</title>
+</head>
+
+<body onload="loadList(event)">
+  <nav>
+    <div class="bg-dark d-flex justify-content-between align-items-center px-5 line">
+
+      <div class="">
+        <img src="https://img.icons8.com/?size=100&id=GdXtjsKgQSjH&format=png&color=FFFFFF" alt="admin"
+            class="text-center" style="width: 40px; height: 40px; font-size: 10px;">
+            <span class="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login / Sign in</span>
+
+            <div id="id01" class="modal">
+              
+              <form class="modals-contents animate" action="/" method="post">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                  <div  class="text-center d-flex justify-content-center align-items-center flex-column pt-4" ><button  type="submit" class="px-5 w-50">Login</button>
+                    <div class="psw">Forgot <a href="#">password?</a></div>
+                  </div>
+
+                 
+                 
+                </div>
+            
+                
+              </form>
+            </div>
+          </div>
+
+      <div class="spacing">
+        <img src="./images/COMIC ART LOGO - Made with PosterMyWall.png" alt="comic" style="width: 100px; height: 70px;">
+      </div>
+
+      <div class="text-center"><a href="./admin.html" class="text text-decoration-none link-dark fw-bold "><img
+            src="https://img.icons8.com/?size=100&id=80umUXRglXhF&format=png&color=FFFFFF" alt="admin"
+            class="text-center" style="width: 40px; height: 40px; font-size: 10px;">
+          <h6 class="link-light" style="font-size: 15px; ">admin</h6>
+        </a></div>
+
+    </div>
+
+    <div class="text-center ">
+
+      <div class="d-flex justify-content-center align-items-center container">
+        <div class=""><a href="./index.html" class="text text-decoration-none  fw-bold px-4 hov " style="font-size: 13px;">HOME</a>
+        </div>
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">COMICS</a></div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner carousel_div">
+      <div class="carousel-item active ">
+        <div class="position-relative shade">
+          <img src="./images/immortalthor-roxxonthor-teaser (1).jpg" class="" style="width: 226vh; height: 80vh; opacity: .5;" alt="banner">
+          <h1 class="position-absolute top-50 start-0 translate-middle-y text1 fw-bolder">The Roxxon Age of Marvel</h1>
+          <div class="position-absolute top-50 start-0 translate-middle-y bttn"><button class=" ">Read more</button></div>
+        </div>
+      </div>
+      <div class="carousel-item  shade">
+        <img src="https://pbs.twimg.com/media/GJhNLVlWkAAxZBu?format=jpg&name=large" class=" "  style="width: 226vh; height: 80vh; opacity: .5;" alt="...">
+         <h1 class="position-absolute top-50 start-0 translate-middle-y text1 fw-bolder">The Roxxon Age of Marvel</h1>
+          <div class="position-absolute top-50 start-0 translate-middle-y bttn"><button class=" ">Read more</button></div>
+      </div>
+      <div class="carousel-item shade">
+        <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/10/Agent-Anti-Venom.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5" class=" "  style="width: 226vh; height: 80vh; opacity: .5;" alt="...">
+         <h1 class="position-absolute top-50 start-0 translate-middle-y text1 fw-bolder">The Roxxon Age of Marvel</h1>
+          <div class="position-absolute top-50 start-0 translate-middle-y bttn"><button class=" ">Read more</button></div>
+      </div>
+      <div class="carousel-item shade">
+        <img src="https://cdn.marvel.com/content/1x/genis-vell_-_captain_marvel_2022_1_art_by_mike_mckone_and_antonio_fabela_resized.png" class=" "  style="width: 226vh; height: 80vh; opacity: .5;" alt="...">
+         <h1 class="position-absolute top-50 start-0 translate-middle-y text1 fw-bolder">The Roxxon Age of Marvel</h1>
+          <div class="position-absolute top-50 start-0 translate-middle-y bttn"><button class=" ">Read more</button></div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container pt-5">
+    <div class="fs-1 fw-bolder ">NEW THIS WEEK</div>
+    <div id="data_container"></div>
+  </div>
+
+  <footer class="bg-dark">
+    <div class="d-flex justify-content-between align-items-center px-5">
+      <div class="p-5">
+        <img src="./images/COMIC ART LOGO - Made with PosterMyWall.png" style="width: 200px; height: 200px;" alt="">
+      </div>
+      <div>
+        <ul class="link-light">
+          <li>About comic</li>
+          <li>Help</li>
+          <li>careers</li>
+          <li>MARVEL</li>
+        </ul>
+      </div>
+      <div>
+        <div>
+          <ul class="link-light">
+            <li>About comic</li>
+            <li>Help</li>
+            <li>careers</li>
+            <li>MARVEL</li>
+          </ul>
+        </div>
+      </div>
+        <ul class="link-light">
+          <li>About comic</li>
+          <li>Help</li>
+          <li>careers</li>
+          <li>MARVEL</li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
