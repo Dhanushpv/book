@@ -7,25 +7,60 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./add_book.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="position-absolute top-50 start-50 translate-middle text-center">
-      <form onsubmit="addproducts(event)">
-        <div> <input type="text"  id="title" placeholder="Title"> </div>
-        <div> <input type="text" id="released" placeholder="Released"> </div>
-        <div> <input type="text" id="witer" placeholder="Witer"> </div>
-        <div> <input type="text" id="cover" placeholder="Cover Artist"> </div>
-        <div> <input type="text" id="description" placeholder="Discription"> </div>
-        <div> <input type="number" id="price" placeholder="price"> </div>
-        <div> <input type="number" id="review" placeholder="Reviews"> </div>
-        <div><input type="text"  id="image" placeholder="Image"></div>
-        <div> <textarea name="About"  id="about" placeholder=" About "></textarea> </div>
+    <nav>
+
+      <div class="d-flex justify-content-center align-items-center container ">
+        <div class=""><a href="./index.html" class="text text-decoration-none  fw-bold px-4 hov " style="font-size: 13px;">HOME</a>
+        </div>
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">COMICS</a></div>
         
-        <div><input type="submit"></div>
-      </form>
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">TV SHOW</a></div>
+
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">MOVIES</a></div>
+
+
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">GAMES</a></div>
+
+        
+
+
+        <div><a href="./book_list.html" class="text text-decoration-none  fw-bold  px-4 hov " style="font-size: 13px;">MORE</a></div>
+
+      </div>
+
+
+    </nav>
+
+    
+    <div class="pt-4">
+      <div class="add_from ">
+        <form onsubmit="addproducts(event)" class="form_box ">
+          
+          <div class="background ">
+            <h1 class="text-center link-light fw-bolder fst-italic">ADD CONTENT</h1>
+            <div class="input_spacing"> <input type="text"  id="title" placeholder="Title"> </div>
+            <div class="input_spacing"> <input type="text" id="released" placeholder="Released"> </div>
+            <div class="input_spacing"> <input type="text" id="witer" placeholder="Witer"> </div>
+            <div class="input_spacing"> <input type="text" id="cover" placeholder="Cover Artist"> </div>
+            <div class="input_spacing"> <input type="text" id="description" placeholder="Discription"> </div>
+            <div class="input_spacing"> <input type="number" id="price" placeholder="price"> </div>
+            <div class="input_spacing"> <input type="number" id="review" placeholder="Reviews"> </div>
+            <div class="input_spacing"><input type="text"  id="image" placeholder="Image"></div>
+            <div class="input_spacing"> <textarea name="About"  id="about" placeholder=" About "></textarea> </div>
+            <div class="input_spacing"><input type="submit" class="custom-btn btn-7"></div>
+          </div> 
+
+        </form>
+      </div>
     </div>
+
+
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
