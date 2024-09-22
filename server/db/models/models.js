@@ -25,7 +25,7 @@ const users = new mongoose.Schema({
         type : String,
         required : true,
     },
-    review : {
+    reviews : {
         type : Number,
         required : true,
     },
