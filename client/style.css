@@ -93,3 +93,15 @@ html, body {
 .new_container{
   padding: 0px 100px 0px 100px;
 }
+
+
+.parallelogram {
+	width: 200px;
+	height: 50px;
+	transform: skew(-14deg);
+	
+}
+
+
+
+

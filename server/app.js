@@ -4,7 +4,6 @@ const dotenv = require ('dotenv');
 dotenv.config();
 
 const mongoConnect = require('./db/connection');
-
 const router = require('./routes/Routes');
 
 

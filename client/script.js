@@ -8,7 +8,7 @@
     let description = document.getElementById('description').value;
     let released = document.getElementById('released').value;
     let image = document.getElementById('image').value;
-    let review = document.getElementById('review').value;
+    let reviews = document.getElementById('review').value;
     let about = document.getElementById('about').value;
     let witer = document.getElementById('witer').value;
     let cover = document.getElementById('cover').value;
@@ -20,7 +20,7 @@
         description,
         released,
         image,
-        review,
+        reviews,
         about,
         witer,
         cover
@@ -161,7 +161,7 @@ async function loadListadmin(){
                         </div>
                         <div class="" style="text-align: justify;">${data[i].description.slice(0,300)+".."}</div>
                         <div class="pt-3">
-                            <div><button onClick="updateProduct('${data[i]._id}')" class="custom-btn btn-15">Update</button></div>
+                            <div class="px-2"><button onClick="updateProduct('${data[i]._id}')" class="custom-btn btn-15">Update</button></div>
                             <div class="pt-3"><button onClick="deleteProduct('${data[i]._id}')" class="custom-btn btn-12" ><span>DELETE</span><span>Click!</span></button></div>
                         </div>
                     </div>
@@ -222,8 +222,8 @@ function updateProduct(id){
          image.value = data.image;
 
 
-        let reviews = document.getElementById('reviews');
-        review.value = data.review;
+        let reviews = document.getElementById('review');
+        reviews.value = data.reviews;
 
 
         let about = document.getElementById('about');
@@ -254,7 +254,7 @@ function updateProduct(id){
     let description = document.getElementById('description').value;
     let released = document.getElementById('released').value;
     let image = document.getElementById('image').value;
-    let review = document.getElementById('review').value;
+    let reviews = document.getElementById('review').value;
     let about = document.getElementById('about').value;
     let witer = document.getElementById('witer').value;
     let cover = document.getElementById('cover').value;
@@ -266,7 +266,7 @@ function updateProduct(id){
         description,
         released,
         image,
-        review,
+        reviews,
         about,
         witer,
         cover
@@ -331,4 +331,6 @@ function updateProduct(id){
     }
 
 }
+
+
 
